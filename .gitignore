@@ -1,0 +1,93 @@
+# Service account keys and credentials - NEVER commit these
+key.json
+account.json
+account*.json
+*account*.json
+*.json.key
+credentials.json
+service-account*.json
+
+# Terraform files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+errored.tfstate
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Terraform variable files (may contain sensitive data)
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+*.secret.tfvars
+
+# Terraform plan files
+*.tfplan
+*.tfplan.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+*.log.*
+
+# Backup files
+*.bak
+*.backup
+*~
